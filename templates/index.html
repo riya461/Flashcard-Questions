@@ -21,11 +21,24 @@
     }
   </style>
   <nav class="navbar is-dark is-fixed-top has-text-centered" role="navigation" aria-label="main navigation">
+    
     <div class="navbar-brand">
       
-      <a class="navbar-item has-text-centered" href="{{ url_for('index') }}"><strong
-          class="is-size-3 has-text-centered">FlashyCards</strong></a>
+
       
+      <a class="navigation max-width-1 m-auto navbar-item has-text-centered"><strong
+          class="is-size-3 has-text-centered" >FlashyCards</strong>
+        </a>
+        
+          <div class="nav-left">
+              
+            
+            <ul>
+                <li><a href='/'>Home</a></li>
+                <li><a href='/cards.html'>My Cards</a></li>
+                <li><a href='/login.html'>Login</a></li>
+            </ul>
+        </div>
       
   </nav>
   <main role="main">

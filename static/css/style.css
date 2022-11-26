@@ -6,15 +6,63 @@ body {
   width: 100%;
   align-items: center;
   justify-content: center;
-  background-color: #77aa77;
   background-image: url("./space.jpg");
   background-attachment: fixed;
   background-size: cover;
   font-family: "helvetica", sans-serif !important;
   overflow-x: hidden !important;
 }
+.navbar-brand {
+  background-color: rgb(173, 217, 255);
+}
+.navigation{
+  font-family: var(--font2);
+  height: 74px;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 26px;
+  color: black;
+}
+.nav-left{
+  font-size: 17px;
+  display: flex;
+  
 
+}
 
+/* .nav-left span{
+  padding-top: 10px;
+} */
+.nav-left img{
+  margin-top: 5px;
+  height: 120px;
+  width: 100px;
+}
+.nav-left ul{
+  display: flex;
+  align-items: center;
+  margin: 0 50px;
+  font-size: 20px;
+}
+.nav-left ul li{
+  
+  list-style: none;
+  margin: 0 30px ;
+  font-family: var(--font1); 
+  
+  
+}
+.nav-left ul li a:hover{
+  color: white;
+  font-weight: bold;
+}
+.nav-left ul li a{
+  text-decoration: none;
+  color: black;
+  
+}
 .card.has-text-centered h1 {
   font-size: 1.75rem;
   font-weight: bold;
