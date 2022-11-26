@@ -1,5 +1,5 @@
 # Question_generator
-This is basically a question generator deployed using NLP(Natural language processing). A file in the form of pdf is attached.Questions are generated from the file provided along with the answers.
+This is basically a question generator deployed using NLP(Natural language processing). A file in the form of pdf or text is attached.Questions are generated from the file provided along with the answers in the form of flash cards.
 
 ## Team Members
 1. [Meera](https://github.com/meera2005)
@@ -36,6 +36,8 @@ A PDF file with content is uploaded and questions are generated from the content
 
 
 ## Future plans
-We plan to integrate more features in future. To upload text and any type of files. Highlighted text if present in the file uploaded should be given priority and more questions should be generated from this. Questions are generated in form of flash cards. Flash cards can be gr
+We plan to integrate more features in future. To upload any type of files. Highlighted text if present in the file uploaded should be given priority and more questions should be generated from these text. Questions are generated in the form of flash cards. Flash cards can be grouped into personalised folders. These flash cards can be saved in their own profile which can be made either by signing in through gmail/other social media accounts.
 
-## 
+## References
+
+https://github.com/PragatiVerma18/MLH-Quizzet
