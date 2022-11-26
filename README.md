@@ -4,7 +4,7 @@ This is basically a question generator deployed using NLP(Natural language proce
 
 
 ## Team Members
-1. [Meera](https://github.com/meera2005)
+1. [Meera Sreekumar](https://github.com/meera2005)
 2. [Riya sabu](https://github.com/riya461)
 3. [Sera Susan Koshy](https://github.com/serasusan)
 4. [Aswathy K](https://github.com/aswathy5k)
