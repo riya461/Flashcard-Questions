@@ -19,7 +19,9 @@
                 $(this).addClass('worngans');
             });
         });
+        
     </script>
+    <script src="static/js/card.js"></script>
 </head>
 
 <body>
@@ -38,31 +40,53 @@
         </div>
     </nav>
     {% if uploaded == true %}
-    <form action="/result" method="POST">
+    <form action="" method="POST">
         {% for i in range(size) %}
         <section class="section-1" id="section-1">
-            <main>
-                <div class="scp-quizzes-main">
-                    <div class="scp-quizzes-data">
-                        <h3 class="is-size-6 has-text-weight-bold">{{ i+1 }}. {{ questions[i+1]['question'] }}</h3>
-                        <br />
-                        {% for op in questions[i+1]['options'] %}
-                        {% if op  == questions[i+1]['answer']  %}
-                        <input type="radio" id="{{ questions[i+1]['answer'] }}" name="question{{ i+1 }}">
-                        <label for="{{ questions[i+1]['answer'] }}">
-                            {{ op }}</label><br />
-                        {% else %}
-                        <input type="radio" name="question{{ i+1 }}">
-                        <label> {{ op }}</label><br />
-                        {% endif %}
-                        {% endfor %}
-                    </div>
+            
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    
+                    <br>
+                    <br>
+                    <br>
+                    <h3 class="is-size-6 has-text-weight-bold"> {{ questions[i+1]['question'] }}</h3>
+                    <br />
+
+                    
+                  </div>
+                  <div class="flip-card-back">
+                    <br>
+                    <br>
+                    <br>
+                    <h3 class="is-size-6 has-text-weight-bold">
+                    {% for op in questions[i+1]['options'] %}
+                    {% if op  == questions[i+1]['answer']  %}
+                    <input type="radio" id="{{ questions[i+1]['answer'] }}" name="question{{ i+1 }}">
+                    <label for="{{ questions[i+1]['answer'] }}">
+                        {{ op }}</label><br />
+                    {% else %}
+                    <input type="radio" name="question{{ i+1 }}">
+                    <label> {{ op }}</label><br />
+                    {% endif %}
+                    {% endfor %}
+                    </h3>
+                  </div>
                 </div>
-            </main>
+              </div>
+            
+                
+                
+               
         </section>
         {% endfor %}
         
     </form>
+    <br>
+    <br>
+    <br>
+    <br>
 
     {% else %}
     <section class="section-1" id="section-1">
