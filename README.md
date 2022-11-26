@@ -8,7 +8,7 @@ This is basically a question generator deployed using NLP(Natural language proce
 4. [Aswathy K](https://github.com/aswathy5k)
 
 ## How it works
-A PDF file with content is uploaded and questions are generated from the content. Questions are displayed as flashcards. This can help user for revising the topics he/she has covered. User can guess the answers. Correct answers can be viewed by flipping each card. Each flashcard can be saved.
+A PDF file with content or text is uploaded and questions are generated from the content using NLP . Questions are displayed as flashcards. This can help user, for revising the topics he/she has covered. User can guess the answers. Correct answers can be viewed by flipping each card. Each flashcard can be saved.
 
 ## Link to product walkthrough
 
