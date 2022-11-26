@@ -1,6 +1,8 @@
 # Question_generator
 This is basically a question generator deployed using NLP(Natural language processing). A file in the form of pdf or text is attached.Questions are generated from the file provided along with the answers in the form of flash cards.
 
+
+
 ## Team Members
 1. [Meera](https://github.com/meera2005)
 2. [Riya sabu](https://github.com/riya461)
