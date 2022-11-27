@@ -205,3 +205,26 @@ body {
 .hero {
   margin-top: 70px !important;
 }
+
+.input{
+  height: 500px;
+  width: 800;
+}
+
+/* #text{
+  width: 1000;
+} */
+
+.all{
+  /* Rectangle 1 */
+
+position: absolute;
+width: 657px;
+height: 150px;
+left: 133px;
+top: 107px;
+
+background: rgba(207, 178, 178, 0.53);
+
+}
+

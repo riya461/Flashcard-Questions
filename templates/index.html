@@ -41,13 +41,25 @@
         </div>
       
   </nav>
+  <div class="all">
   <main role="main">
     <div class="hero">
       <p class="is-size-3 has-text-black has-text-weight-bold has-text-centered">Upload the Document</p>
     </div>
+    
+      <form action="quiz.html">
+        <div class="form-group">
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="20" cols="100" placeholder="Input the text" >
+        
+          </textarea>
+        </div>
+        
+      </form>
+    
     <div class="card has-text-centered">
       <!-- <img src="https://cdn4.iconfinder.com/data/icons/files-and-folders-thinline-icons-set/144/File_PDF-512.png"
         alt="upload" /> -->
+
       <form action="/quiz" method="POST" enctype="multipart/form-data">
         <div id="file-js-example" class="file has-name is-fullwidth">
           <label class="file-label">
@@ -82,6 +94,7 @@
       </form>
     </div>
   </main>
+</div>
   <script>const button = document.querySelector('.button');
     const submit = document.querySelector('.submit');
 
