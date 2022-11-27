@@ -6,14 +6,14 @@ body {
   width: 100%;
   align-items: center;
   justify-content: center;
-  background-image: url("./space.jpg");
+  background-image: url("./images/space.jpg");
   background-attachment: fixed;
   background-size: cover;
   font-family: "helvetica", sans-serif !important;
   overflow-x: hidden !important;
 }
 .navbar-brand {
-  background-color: rgb(173, 217, 255);
+  background-color: rgb(1, 41, 76);
 }
 .navigation{
   font-family: var(--font2);
@@ -23,7 +23,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-top: 26px;
-  color: black;
+  color: rgb(77, 110, 153);
 }
 .nav-left{
   font-size: 17px;
@@ -60,7 +60,10 @@ body {
 }
 .nav-left ul li a{
   text-decoration: none;
-  color: black;
+  text-align: center;
+  font-weight: bold;
+  
+  color: rgb(169, 206, 255);
   
 }
 .card.has-text-centered h1 {

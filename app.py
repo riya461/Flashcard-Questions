@@ -58,13 +58,16 @@ def quiz():
         size=len(questions))
 
 
-@app.route('/result', methods=['POST', 'GET'])
-def result():
-    correct_q = 0
-    for k, v in request.form.items():
-        correct_q += 1
-    return render_template('result.html', total=5, correct=correct_q)
+@ app.route('/cards')
+def cards():
+    """ The landing page for the app """
+    return render_template('cards.html')
 
+
+@ app.route('/login')
+def login():
+    """ The landing page for the app """
+    return render_template('login.html')
 
 if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0')
