@@ -17,3 +17,58 @@ body{
 .navbar{
   margin-bottom: 30px;
 }
+
+.navbar-brand {
+  background-color: rgb(1, 41, 76);
+}
+.navigation{
+  font-family: var(--font2);
+  height: 74px;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 26px;
+  color: rgb(77, 110, 153);
+}
+.nav-left{
+  font-size: 17px;
+  display: flex;
+  
+
+}
+
+/* .nav-left span{
+  padding-top: 10px;
+} */
+.nav-left img{
+  margin-top: 5px;
+  height: 120px;
+  width: 100px;
+}
+.nav-left ul{
+  display: flex;
+  align-items: center;
+  margin: 0 50px;
+  font-size: 20px;
+}
+.nav-left ul li{
+  
+  list-style: none;
+  margin: 0 30px ;
+  font-family: var(--font1); 
+  
+  
+}
+.nav-left ul li a:hover{
+  color: white;
+  font-weight: bold;
+}
+.nav-left ul li a{
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  
+  color: rgb(169, 206, 255);
+  
+}

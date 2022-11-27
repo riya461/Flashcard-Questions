@@ -30,15 +30,25 @@
             src: "{{ url_for('static', filename='fonts/helvetica.ttf')}}"
         }
     </style>
-    <nav class="navbar is-dark is-fixed-top has-text-centered" role="navigation" aria-label="main navigation" center>
+    <nav class="navbar is-dark is-fixed-top has-text-centered" role="navigation" aria-label="main navigation">
+    
         <div class="navbar-brand">
-            <a class="navbar-item has-text-centered" href="{{ url_for('index') }}"><strong
-                    class="is-size-3 has-text-centered">NOVA</strong></a>
+          
+          <img  src="static/css/images/logo.png" alt="Logo" width="100" height="50" class="d-inline-block align-text-top m-2" >
+              
+         
             
-            
-        </div>
-        
-    </nav>
+              <div class="nav-left">
+                  
+                
+                <ul>
+                    <li><a href='/'>Home</a></li>
+                    <li><a href='/cards'>My Cards</a></li>
+                    <li><a href='/login'>Login</a></li>
+                </ul>
+            </div>
+          
+      </nav>
     {% if uploaded == true %}
     <form action="" method="POST">
         {% for i in range(size) %}
@@ -63,13 +73,12 @@
                     <h3 class="is-size-6 has-text-weight-bold">
                     {% for op in questions[i+1]['options'] %}
                     {% if op  == questions[i+1]['answer']  %}
-                    <input type="radio" id="{{ questions[i+1]['answer'] }}" name="question{{ i+1 }}">
-                    <label for="{{ questions[i+1]['answer'] }}">
-                        {{ op }}</label><br />
-                    {% else %}
-                    <input type="radio" name="question{{ i+1 }}">
+                    <a id="{{ questions[i+1]['answer'] }}" name="question{{ i+1 }}">
+                        {{ op }}</a><br />
+                     {% else %}
+                    <input type="" name="question{{ i+1 }}">
                     <label> {{ op }}</label><br />
-                    {% endif %}
+                    {% endif %} 
                     {% endfor %}
                     </h3>
                   </div>
