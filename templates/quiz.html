@@ -30,25 +30,26 @@
             src: "{{ url_for('static', filename='fonts/helvetica.ttf')}}"
         }
     </style>
-    <nav class="navbar is-dark is-fixed-top has-text-centered" role="navigation" aria-label="main navigation">
+      <nav class="navbar  is-fixed-top has-text-centered" role="navigation" aria-label="main navigation">
     
-        <div class="navbar-brand">
+    <div class="navbar-brand">
+      
+      <img  src="static/css/images/logo.png" alt="Logo" width="100" height="50" class="d-inline-block align-text-top m-2" >
           
-          <img  src="static/css/images/logo.png" alt="Logo" width="100" height="50" class="d-inline-block align-text-top m-2" >
+     
+        
+          <div class="nav-left">
               
-         
             
-              <div class="nav-left">
-                  
-                
-                <ul>
-                    <li><a href='/'>Home</a></li>
-                    <li><a href='/cards'>My Cards</a></li>
-                    <li><a href='/login'>Login</a></li>
-                </ul>
-            </div>
-          
-      </nav>
+            <ul>
+                <li><a href='/'>Home</a></li>
+                <li><a href='/cards'>My Cards</a></li>
+                <li><a href='/login'>Login</a></li>
+            </ul>
+        </div>
+        
+      
+  </nav>
     {% if uploaded == true %}
     <form action="" method="POST">
         {% for i in range(size) %}

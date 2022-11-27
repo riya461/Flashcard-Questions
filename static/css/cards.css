@@ -8,12 +8,15 @@ body{
   overflow: hidden;
 }
 .card{
+  
   position: relative;
   width: 400px;
   height: 250px;
   margin-left: 40px;
 }
-
+.card-body {
+  position: center;
+}
 .navbar{
   margin-bottom: 30px;
 }

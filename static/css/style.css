@@ -12,6 +12,9 @@ body {
   font-family: "helvetica", sans-serif !important;
   overflow-x: hidden !important;
 }
+.navbar{
+  background-color: rgb(1, 41, 76);
+}
 .navbar-brand {
   background-color: rgb(1, 41, 76);
 }
@@ -207,6 +210,7 @@ body {
 
 .hero {
   margin-top: 70px !important;
+  margin-bottom: 70px;
 }
 
 .input{
@@ -220,7 +224,7 @@ body {
 
 .all{
   /* Rectangle 1 */
-
+color: white;
 position: absolute;
 width: 657px;
 height: 150px;
